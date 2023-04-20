@@ -5,10 +5,10 @@ Ransomware that does everything except encrypt the files. It uses twilio API to 
 pip install twilio
 ```
 ## configuring SMS
-- create twilio account at https://www.twilio.com/try-twilio
+- Start an account at https://www.twilio.com/try-twilio
 - on the left under develop, click on phone numbers> manage> active numbers
-- create a number
-- next click on verified caller IDs and enter and verify your number
+- Create a number.
+- Select Verify Caller ID and do as follows
 - on the top right click on acoount and open API keys and tokens
 - you will be able to se your account SID and auth token, you will need these
 - you will need to edit this section:
